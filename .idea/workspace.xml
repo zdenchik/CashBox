@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8660e150-8337-4538-8a7f-ba7b9c2953f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CashBox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constants/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constants/ReceiptType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constants/TaxList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ItemList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReceiptManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StructureClass/GoodsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StructureClass/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StructureClass/Receipt.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="21JfzS8Uo5p6OAIUvhv00uaW5Uo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8660e150-8337-4538-8a7f-ba7b9c2953f2" name="Default Changelist" comment="" />
+      <created>1637664378545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637664378545</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1637669200330">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="605" y="280" key="#com.intellij.ide.util.MemberChooser/0.0.1600.1160@0.0.1600.1160" timestamp="1637669200330" />
+    <state x="580" y="321" key="FileChooserDialogImpl" timestamp="1637670814569">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="580" y="321" key="FileChooserDialogImpl/0.0.1600.1160@0.0.1600.1160" timestamp="1637670814569" />
+    <state x="500" y="337" key="refactoring.ChangeSignatureDialog" timestamp="1637670189978">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="500" y="337" key="refactoring.ChangeSignatureDialog/0.0.1600.1160@0.0.1600.1160" timestamp="1637670189978" />
+    <state x="456" y="270" key="run.anything.popup" timestamp="1637670411123">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="456" y="270" key="run.anything.popup/0.0.1600.1160@0.0.1600.1160" timestamp="1637670411123" />
+  </component>
+</project>
