@@ -2,16 +2,17 @@ package StructureClass;
 
 import Constants.TaxList;
 
-import java.util.Arrays;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class Item {
     public String itemName;
-    public int itemCode;
+    private final int itemCode;
     public double itemPrice;
     public TaxList itemTax;
-    public String[] barcodeArray;
+    public ArrayList<String> barcodeArray;
 
-    public Item(String itemName, int itemCode, double itemPrice, TaxList itemTax, String[] barcodeArray) {
+    public Item(String itemName, int itemCode, double itemPrice, TaxList itemTax, ArrayList<String> barcodeArray) {
         this.itemName = itemName;
         this.itemCode = itemCode;
         this.itemPrice = itemPrice;
@@ -33,16 +34,12 @@ public class Item {
         return getItemCode();
     }
 
-    public String getItemName() {
-        return itemName;
-    }
-
     public int getItemCode() {
         return itemCode;
     }
 
     public boolean containsBarcode(String barcode) {
-        return Arrays.asList(barcodeArray).contains(barcode);
+        return barcodeArray.contains(barcode);
     }
 
     @Override
@@ -52,7 +49,7 @@ public class Item {
                 ", itemCode=" + itemCode +
                 ", itemPrice=" + itemPrice +
                 ", itemTax=" + itemTax +
-                ", barcodeArray=" + Arrays.toString(barcodeArray) +
+                ", barcodeArray=" + barcodeArray.toString() +
                 '}';
     }
 }

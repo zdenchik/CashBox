@@ -1,6 +1,7 @@
 import StructureClass.Item;
 
 import java.util.HashSet;
+import java.util.Optional;
 
 public class ItemList {
     private static HashSet<Item> itemList = initialize();
@@ -30,7 +31,8 @@ public class ItemList {
     }
 
     public static Item FindItem(int itemCode){
-        return itemList.stream().filter(a-> itemCode == a.getItemCode()).findFirst().get();
+        return itemList.stream().filter(a -> itemCode == a.getItemCode()).findFirst().get();
     }
+
 
 }
