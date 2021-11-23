@@ -1,22 +1,36 @@
 import StructureClass.Item;
 
-import java.util.Arrays;
-import java.util.Set;
+import java.util.HashSet;
 
 public class ItemList {
-    private Set<Item> itemList;
+    private static HashSet<Item> itemList = initialize();
 
-    public void setItemList(Set<Item> itemList) {
-        this.itemList = itemList;
+    private static HashSet<Item> initialize(){
+        return new HashSet<>();
     }
 
-    public Item FindItem(int itemCode){
+    public static HashSet<Item> getItemList() {
+        return itemList;
+    }
 
-        Item search = itemList.stream().filter(a-> itemCode == a.getItemCode()).findFirst().get();
-        if (!search.equals(null)){
-            return search;
+    public static void setItemList(HashSet<Item> List){
+        itemList = List;
+    }
+
+    public static void add(Item item){
+        boolean a = itemList.add(item);
+        if (!a){
+            itemList.remove(item);
+            itemList.add(item);
         }
-            return null;
+    }
+
+    public static Item FindItem(String itemCode){
+        return itemList.stream().filter(a -> a.containsBarcode(itemCode)).findFirst().get();
+    }
+
+    public static Item FindItem(int itemCode){
+        return itemList.stream().filter(a-> itemCode == a.getItemCode()).findFirst().get();
     }
 
 }

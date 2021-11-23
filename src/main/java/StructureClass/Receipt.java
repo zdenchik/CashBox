@@ -11,7 +11,7 @@ public class Receipt {
 
     private final ReceiptType receiptType; //Type of operation (default is Purchase)
     private final LocalDate time; //Time of a receipt
-    private final int number; //Unique number
+    private final long number; //Unique number
 
     //Time and indicator - when and was receipt send to the server
     private boolean receiptSend;
@@ -41,7 +41,7 @@ public class Receipt {
         return time;
     }
 
-    public int getNumber() {
+    public long getNumber() {
         return number;
     }
 }
